@@ -33,3 +33,7 @@ For more Migration related doubts go to the Sequelize [Migration](https://sequel
 1. If there was any error in the previous migration you can undo it by `npm run migration prev` or `npm run migrate reset-prev`. This will revert only the last migration.
 
 1. `npm run migrate reset-hard`, this will drops and creates a new table with the same name.
+
+## GraphQl:
+
+In this I'm following the **code first** method of nestJs-graphQl. So the Schema.gql file will automatically get created.
